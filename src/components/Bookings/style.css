@@ -1,0 +1,68 @@
+/* .myBooking{
+    background-image: url('../../assets/Images/backdrop.jpg');
+    background-size:contain ;
+    background-repeat: no-repeat;
+    opacity: 0.6;
+} */
+.booking-content{
+    padding: 30px;
+}
+h2{
+    text-align: center;
+    color: var(--theme);
+}
+.div-label{
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.label-text{
+    font-size: larger;
+    padding: 5px;
+}
+.save-button{
+    width: 230px !important;;
+    height:40px;
+    margin: auto;
+    text-align: center;
+    width: 150px;
+    height: 40px;
+    font-size: large !important;
+    display: flex;
+    gap:2.5rem;
+}
+
+/* Media Queries */
+@media screen and (min-width:475px) {
+
+    .div-label{
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .save-button{
+        width:100%;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .booking-content{
+        padding: 40px;
+    }
+    .div-label{
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+    .save-button{
+        width:200px;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .booking-content{
+        padding: 50px;
+    }
+    .div-label{
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+}
+

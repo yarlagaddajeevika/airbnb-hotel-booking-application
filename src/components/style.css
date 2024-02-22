@@ -1,0 +1,47 @@
+.logo-img{
+    width: 100px;
+}
+.login-button{
+    text-align: center;
+}
+button{
+    width: 150px;
+    height: 40px;
+    font-size: large !important;
+}
+.div-label{
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.label-text{
+    font-size: larger;
+    padding: 5px;
+}
+
+/* Last Page */
+.lastPage{
+    text-align: center;
+}
+
+/* Media Queries */
+@media screen and (min-width:475px){
+    .div-label{
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    button{
+        width: 200px;
+    }
+}
+@media screen and (min-width:768px){
+    .div-label{
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+}
+@media screen and (min-width:1024px){
+    .div-label{
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+}
